@@ -1,0 +1,8 @@
+SET ( SRC_DIR src )
+SET ( INC_DIR include )
+SET ( SRCS
+	multiple.cpp
+)
+LIST ( TRANSFORM SRCS PREPEND ${SRC_DIR}/ )
+ADD_LIBRARY ( multiple ${SRCS})
+TARGET_INCLUDE_DIRECTORIES ( multiple PUBLIC ${INC_DIR} )

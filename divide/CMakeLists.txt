@@ -1,0 +1,8 @@
+SET ( SRC_DIR src )
+SET ( INC_DIR include )
+SET ( SRCS
+	divide.cpp
+)
+LIST ( TRANSFORM SRCS PREPEND ${SRC_DIR}/ )
+ADD_LIBRARY ( divide ${SRCS})
+TARGET_INCLUDE_DIRECTORIES ( divide PUBLIC ${INC_DIR} )
