@@ -18,19 +18,19 @@ However if you're not good at CMake, It's not recommended to apply it to your co
 1. In Linux, make 'build' folder in it and run cmake
 
 
-'''
+```
 mkdir build
 cd build
 cmake ..
-'''
+```
 
 2. build & install program and run it.
 
-'''
+```
 make all
 make install
 ../Bin/pluser
-'''
+```
 
 
 ---
@@ -48,8 +48,8 @@ cmake ..
 
 2. 프로그램을 빌드 및 설치하고 실행하십시오.
 
-'''
+```
 make all
 make install
 ../Bin/pluser
-'''
+```
