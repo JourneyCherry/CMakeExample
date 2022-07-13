@@ -40,11 +40,11 @@ make install
 1. 리눅스에서, 'build' 폴더를 만들고 cmake를 실행하세요.
 
 
-'''
+```
 mkdir build
 cd build
 cmake ..
-'''
+```
 
 2. 프로그램을 빌드 및 설치하고 실행하십시오.
 
